@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Blazor/BlazorApp/BlazorApp/Pages/Demos/BlazorForm/BlazorForm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcQmxhem9yRm9ybVxCbGF6b3JGb3JtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Blazor/BlazorApp/BlazorApp/Pages/Demos/Bonus/Bonus.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb3NcQm9udXNcQm9udXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
