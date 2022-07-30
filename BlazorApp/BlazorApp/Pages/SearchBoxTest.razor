@@ -1,0 +1,20 @@
+﻿@page "/SearchBoxTest"
+@using BlazorApp.Components
+
+
+<h3>SearchBoxTest</h3>
+
+<SearchBox></SearchBox>
+<SearchBox placeholder="Search Query..." SearchQueryChanged="SearchQueryChanged"></SearchBox>
+
+<hr />
+
+부모 : @searchQuery
+
+@code {
+    private string searchQuery;
+    protected void SearchQueryChanged(string searchQuery)
+    {
+        this.searchQuery = searchQuery;
+    }
+}
