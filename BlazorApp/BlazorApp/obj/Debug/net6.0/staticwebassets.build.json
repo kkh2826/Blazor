@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DiB3K83jQzf5BSb8znGuVMupwzXN9nesslaOglEVzLU=",
+  "Hash": "i6cerSWJgAPvwX2+r4g0g9QemF9Q19tVJPO2vjBXRjo=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\dist\\matBlazor.css",
+      "SourceId": "MatBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\",
+      "BasePath": "_content/MatBlazor",
+      "RelativePath": "dist/matBlazor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\dist\\matBlazor.css"
+    },
+    {
+      "Identity": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\dist\\matBlazor.js",
+      "SourceId": "MatBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\",
+      "BasePath": "_content/MatBlazor",
+      "RelativePath": "dist/matBlazor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kkh28\\.nuget\\packages\\matblazor\\2.8.0\\staticwebassets\\dist\\matBlazor.js"
+    },
     {
       "Identity": "C:\\Users\\kkh28\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.7\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
