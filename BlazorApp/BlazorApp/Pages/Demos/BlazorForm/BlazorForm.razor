@@ -7,7 +7,10 @@
 <EditForm Model="exampleModel" OnValidSubmit="@btnSubmit_Click">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <ValidationSummary></ValidationSummary>
+
     <InputText id="txtName" @bind-Value="exampleModel.Name"></InputText>
+    <ValidationMessage For="@(() => exampleModel.Name)"></ValidationMessage>
+
     <button type="submit">Submit</button>
 </EditForm>
 
