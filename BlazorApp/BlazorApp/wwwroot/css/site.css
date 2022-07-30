@@ -62,3 +62,16 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+.budget{
+    width: 100%;
+    display: grid;
+    grid-template-columns: min-content 6rem 1fr;
+    white-space: nowrap;
+    grid-gap: 10px;
+}
+
+button:disabled {
+    opacity: 0.6
+}
