@@ -69,3 +69,5 @@ D:\Blazor\BlazorApp\BlazorApp\obj\Debug\net6.0\refint\BlazorApp.dll
 D:\Blazor\BlazorApp\BlazorApp\obj\Debug\net6.0\BlazorApp.pdb
 D:\Blazor\BlazorApp\BlazorApp\obj\Debug\net6.0\BlazorApp.genruntimeconfig.cache
 D:\Blazor\BlazorApp\BlazorApp\obj\Debug\net6.0\ref\BlazorApp.dll
+D:\Blazor\BlazorApp\BlazorApp\bin\Debug\net6.0\BlazorApp.Models.dll
+D:\Blazor\BlazorApp\BlazorApp\bin\Debug\net6.0\BlazorApp.Models.pdb

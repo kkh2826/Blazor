@@ -767,6 +767,16 @@
             "rid": "win"
           }
         }
+      },
+      "BlazorApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BlazorApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorApp.Models.dll": {}
+        }
       }
     }
   },
@@ -2257,10 +2267,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlazorApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlazorApp.Models/BlazorApp.Models.csproj",
+      "msbuildProject": "../BlazorApp.Models/BlazorApp.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BlazorApp.Models >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.7",
@@ -2294,7 +2310,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Blazor\\BlazorApp\\BlazorApp.Models\\BlazorApp.Models.csproj": {
+              "projectPath": "D:\\Blazor\\BlazorApp\\BlazorApp.Models\\BlazorApp.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

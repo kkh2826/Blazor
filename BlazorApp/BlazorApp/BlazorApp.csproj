@@ -15,4 +15,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorApp.Models\BlazorApp.Models.csproj" />
+  </ItemGroup>
+
 </Project>
