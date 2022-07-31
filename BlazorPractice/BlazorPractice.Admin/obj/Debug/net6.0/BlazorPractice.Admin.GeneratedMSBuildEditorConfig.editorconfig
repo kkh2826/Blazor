@@ -1,0 +1,124 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorPractice.Admin
+build_property.RootNamespace = BlazorPractice.Admin
+build_property.ProjectDir = D:\Blazor\BlazorPractice\BlazorPractice.Admin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Blazor\BlazorPractice\BlazorPractice.Admin
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Blank.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxhbmsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Charts/Chart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcnRzXENoYXJ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Components/Buttons.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xCdXR0b25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Components/Cards.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50c1xDYXJkcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Others/Tables.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXFRhYmxlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Pages/ForgotPassword.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcRm9yZ290UGFzc3dvcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Pages/NotFoundPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcTm90Rm91bmRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Utilities/Animations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXRpbGl0aWVzXEFuaW1hdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Utilities/Borders.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXRpbGl0aWVzXEJvcmRlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Utilities/Colors.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXRpbGl0aWVzXENvbG9ycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Utilities/Other.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXRpbGl0aWVzXE90aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8dne3t1ue6
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-sdf9h7sanm
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice.Admin/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
