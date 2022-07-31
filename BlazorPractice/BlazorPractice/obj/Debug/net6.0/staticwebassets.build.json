@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NBVi23RjsQ1tKUTWa2L3TXUxOQMUCyJEyoKeEvhJNwM=",
+  "Hash": "9QeXcOs38qCvK1QzZnAXajE30PgAkhstTaEJqR+unPg=",
   "Source": "BlazorPractice",
   "BasePath": "_content/BlazorPractice",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\about.html"
+    },
+    {
+      "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\blank.html",
+      "SourceId": "BlazorPractice",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\",
+      "BasePath": "_content/BlazorPractice",
+      "RelativePath": "blank.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\blank.html"
     },
     {
       "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\blog-home-1.html",
