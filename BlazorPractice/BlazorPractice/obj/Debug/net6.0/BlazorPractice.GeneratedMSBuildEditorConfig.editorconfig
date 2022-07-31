@@ -23,8 +23,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Blogs/BlogHomeOne.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ3NcQmxvZ0hvbWVPbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Blogs/BlogHomeTwo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ3NcQmxvZ0hvbWVUd28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Blogs/BlogPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ3NcQmxvZ1Bvc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Contact.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Blazor/BlazorPractice/BlazorPractice/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Others/Faq.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXEZhcS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Others/FullWidth.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXEZ1bGxXaWR0aC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Others/NotFoundPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXE5vdEZvdW5kUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Others/Pricing.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXFByaWNpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Others/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3RoZXJzXFNpZGViYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Portfolios/PortfolioFour.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvc1xQb3J0Zm9saW9Gb3VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Portfolios/PortfolioItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvc1xQb3J0Zm9saW9JdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Portfolios/PortfolioThree.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvc1xQb3J0Zm9saW9UaHJlZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazor/BlazorPractice/BlazorPractice/Pages/Portfolios/PortfolioTwo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9ydGZvbGlvc1xQb3J0Zm9saW9Ud28ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Blazor/BlazorPractice/BlazorPractice/Pages/Portfolios/PortfolioWebsite.razor]
