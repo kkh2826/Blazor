@@ -69,3 +69,5 @@ D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\refint\BlazorPrac
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\BlazorPractice.Admin.pdb
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\BlazorPractice.Admin.genruntimeconfig.cache
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\ref\BlazorPractice.Admin.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\ChartJs.Blazor.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\Newtonsoft.Json.dll
