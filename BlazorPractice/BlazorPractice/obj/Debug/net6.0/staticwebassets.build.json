@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9QeXcOs38qCvK1QzZnAXajE30PgAkhstTaEJqR+unPg=",
+  "Hash": "XliC/YOmMObtz9d9tgbHbVY0vC2YAazLhsGkC/M9LW0=",
   "Source": "BlazorPractice",
   "BasePath": "_content/BlazorPractice",
   "Mode": "Default",
@@ -1088,40 +1088,6 @@
       "OriginalItemSpec": "wwwroot\\404.html"
     },
     {
-      "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\about.html",
-      "SourceId": "BlazorPractice",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\",
-      "BasePath": "_content/BlazorPractice",
-      "RelativePath": "about.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\about.html"
-    },
-    {
-      "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\blank.html",
-      "SourceId": "BlazorPractice",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\",
-      "BasePath": "_content/BlazorPractice",
-      "RelativePath": "blank.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\blank.html"
-    },
-    {
       "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\blog-home-1.html",
       "SourceId": "BlazorPractice",
       "SourceType": "Discovered",
@@ -1613,23 +1579,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pricing.html"
-    },
-    {
-      "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\services.html",
-      "SourceId": "BlazorPractice",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\",
-      "BasePath": "_content/BlazorPractice",
-      "RelativePath": "services.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\services.html"
     },
     {
       "Identity": "D:\\Blazor\\BlazorPractice\\BlazorPractice\\wwwroot\\sidebar.html",
