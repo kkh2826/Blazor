@@ -908,6 +908,16 @@
             "rid": "win"
           }
         }
+      },
+      "BlazorPractice.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BlazorPractice.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorPractice.Models.dll": {}
+        }
       }
     }
   },
@@ -2588,10 +2598,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BlazorPractice.Models/1.0.0": {
+      "type": "project",
+      "path": "../BlazorPractice.Models/BlazorPractice.Models.csproj",
+      "msbuildProject": "../BlazorPractice.Models/BlazorPractice.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BlazorPractice.Models >= 1.0.0",
       "ChartJs.Blazor.Fork >= 2.0.2",
       "MatBlazor >= 2.8.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.7",
@@ -2627,7 +2643,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Blazor\\BlazorPractice\\BlazorPractice.Models\\BlazorPractice.Models.csproj": {
+              "projectPath": "D:\\Blazor\\BlazorPractice\\BlazorPractice.Models\\BlazorPractice.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

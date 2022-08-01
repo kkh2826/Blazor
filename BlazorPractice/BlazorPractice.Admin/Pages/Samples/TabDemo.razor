@@ -1,0 +1,67 @@
+﻿@page "/Samples/TabDemo"
+
+<h3>TabDemo</h3>
+
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">탭1</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">탭2</div>
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">탭3</div>
+</div>
+
+<hr />
+
+<ul class="nav nav-pills mb-3">
+  <li class="nav-item" @onclick="@(() => TabClicked(1))">
+    <button class="nav-link" @tab1Active >Home</button>
+  </li>
+  <li class="nav-item" @onclick="@(() => TabClicked(2))">
+    <button class="nav-link" @tab2Active >Profile</button>
+  </li>
+  <li class="nav-item" @onclick="@(() => TabClicked(3))">
+    <button class="nav-link" @tab3Active >Contact</button>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade">탭1</div>
+  <div class="tab-pane fade">탭2</div>
+  <div class="tab-pane fade">탭3</div>
+</div>
+
+@code {
+    string tab1Active = "active";
+    string tab2Active = "";
+    string tab3Active = "";
+
+    public void TabClicked(int tabId)
+    {
+        if (tabId == 1)
+        {
+            tab1Active = "active";
+            tab2Active = "";
+            tab3Active= "";
+        }
+        else if (tabId == 2)
+        {
+            tab1Active = "";
+            tab2Active = "active";
+            tab3Active= "";
+        }
+        else
+        {
+            tab1Active = "";
+            tab2Active = "";
+            tab3Active= "active";
+        }
+    }
+}

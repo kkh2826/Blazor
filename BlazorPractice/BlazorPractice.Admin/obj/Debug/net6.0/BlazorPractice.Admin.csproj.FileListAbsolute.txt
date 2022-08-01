@@ -71,3 +71,6 @@ D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\BlazorPractice.Ad
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\obj\Debug\net6.0\ref\BlazorPractice.Admin.dll
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\ChartJs.Blazor.dll
 D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\MatBlazor.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\BlazorPractice.Models.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Admin\bin\Debug\net6.0\BlazorPractice.Models.pdb

@@ -1,0 +1,12 @@
+D:\Blazor\BlazorPractice\BlazorPractice.Models\bin\Debug\net6.0\BlazorPractice.Models.deps.json
+D:\Blazor\BlazorPractice\BlazorPractice.Models\bin\Debug\net6.0\BlazorPractice.Models.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Models\bin\Debug\net6.0\BlazorPractice.Models.pdb
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.csproj.AssemblyReference.cache
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.AssemblyInfoInputs.cache
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.AssemblyInfo.cs
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.csproj.CoreCompileInputs.cache
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\refint\BlazorPractice.Models.dll
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\BlazorPractice.Models.pdb
+D:\Blazor\BlazorPractice\BlazorPractice.Models\obj\Debug\net6.0\ref\BlazorPractice.Models.dll

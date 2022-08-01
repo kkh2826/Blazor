@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPractice.Models.Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPractice.Apis", "BlazorPractice.Apis\BlazorPractice.Apis.csproj", "{5A520482-255E-4603-9A85-0BC20598FCB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPractice.SingleSignOn", "BlazorPractice.SingleSignOn\BlazorPractice.SingleSignOn.csproj", "{101A225B-D90E-43F6-9F30-9870A17DDB1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{5A520482-255E-4603-9A85-0BC20598FCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A520482-255E-4603-9A85-0BC20598FCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A520482-255E-4603-9A85-0BC20598FCB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101A225B-D90E-43F6-9F30-9870A17DDB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101A225B-D90E-43F6-9F30-9870A17DDB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101A225B-D90E-43F6-9F30-9870A17DDB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101A225B-D90E-43F6-9F30-9870A17DDB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
