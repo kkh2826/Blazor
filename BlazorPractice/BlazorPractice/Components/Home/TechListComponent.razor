@@ -1,0 +1,28 @@
+﻿
+<ul>
+    @foreach (var tech in Teches)
+    {
+        <li>@tech.Title</li>
+    }
+</ul>
+
+@code {
+    private List<Tech> teches;
+
+    public List<Tech> Teches
+    {
+        get { return teches; }
+        set { teches = value; }
+    }
+
+    protected override void OnInitialized()
+    {
+        teches = new List<Tech>()
+        {
+            new Tech{ Id = 1, Title = "Azure" },
+            new Tech{ Id = 2, Title = "Blazor" },
+            new Tech{ Id = 3, Title = "C#" },
+            new Tech{ Id = 4, Title = "DotNet" },
+        };
+    }
+}

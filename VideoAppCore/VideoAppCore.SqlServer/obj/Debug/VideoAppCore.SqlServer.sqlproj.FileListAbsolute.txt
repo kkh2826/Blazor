@@ -1,0 +1,10 @@
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\bin\Debug\VideoAppCore.SqlServer.dacpac
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\bin\Debug\VideoAppCore.SqlServer.dll
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\bin\Debug\VideoAppCore.SqlServer.pdb
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\VideoAppCore.SqlServer.sqlproj.AssemblyReference.cache
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\Model.xml
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\refactor.xml
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\postdeploy.sql
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\predeploy.sql
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\VideoAppCore.SqlServer.dll
+D:\Blazor\VideoAppCore\VideoAppCore.SqlServer\obj\Debug\VideoAppCore.SqlServer.pdb

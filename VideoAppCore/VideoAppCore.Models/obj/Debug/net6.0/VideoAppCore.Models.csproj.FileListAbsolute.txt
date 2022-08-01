@@ -1,0 +1,12 @@
+D:\Blazor\VideoAppCore\VideoAppCore.Models\bin\Debug\net6.0\VideoAppCore.Models.deps.json
+D:\Blazor\VideoAppCore\VideoAppCore.Models\bin\Debug\net6.0\VideoAppCore.Models.dll
+D:\Blazor\VideoAppCore\VideoAppCore.Models\bin\Debug\net6.0\VideoAppCore.Models.pdb
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.csproj.AssemblyReference.cache
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.AssemblyInfoInputs.cache
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.AssemblyInfo.cs
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.csproj.CoreCompileInputs.cache
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.dll
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\refint\VideoAppCore.Models.dll
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\VideoAppCore.Models.pdb
+D:\Blazor\VideoAppCore\VideoAppCore.Models\obj\Debug\net6.0\ref\VideoAppCore.Models.dll

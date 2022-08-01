@@ -18,6 +18,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link href="fa/css/all.css" rel="stylesheet" />
+    <script src="fa/js/all.js"></script>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 </head>
 <body>
@@ -91,5 +94,10 @@
     </footer>
 
     <script src="_framework/blazor.server.js"></script>
+    <script>
+        window.RunCarousel = function() {
+            $('.carousel').carousel();
+        }
+    </script>
 </body>
 </html>

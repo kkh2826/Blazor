@@ -69,3 +69,5 @@ D:\Blazor\BlazorPractice\BlazorPractice\obj\Debug\net6.0\refint\BlazorPractice.d
 D:\Blazor\BlazorPractice\BlazorPractice\obj\Debug\net6.0\BlazorPractice.pdb
 D:\Blazor\BlazorPractice\BlazorPractice\obj\Debug\net6.0\BlazorPractice.genruntimeconfig.cache
 D:\Blazor\BlazorPractice\BlazorPractice\obj\Debug\net6.0\ref\BlazorPractice.dll
+D:\Blazor\BlazorPractice\BlazorPractice\bin\Debug\net6.0\BlazorPractice.Models.dll
+D:\Blazor\BlazorPractice\BlazorPractice\bin\Debug\net6.0\BlazorPractice.Models.pdb
