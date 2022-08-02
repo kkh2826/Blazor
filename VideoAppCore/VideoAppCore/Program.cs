@@ -4,8 +4,10 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 using VideoAppCore.Areas.Identity;
 using VideoAppCore.Data;
+using VideoAppCore.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+// 새로운 DbContext 클래스 등록
+builder.Services.AddDbContext<VideoDbContext>(options => options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 
