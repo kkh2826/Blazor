@@ -767,6 +767,16 @@
             "rid": "win"
           }
         }
+      },
+      "VideoAppCore.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VideoAppCore.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VideoAppCore.Models.dll": {}
+        }
       }
     }
   },
@@ -2257,6 +2267,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "VideoAppCore.Models/1.0.0": {
+      "type": "project",
+      "path": "../VideoAppCore.Models/VideoAppCore.Models.csproj",
+      "msbuildProject": "../VideoAppCore.Models/VideoAppCore.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2265,7 +2280,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.7",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
+      "VideoAppCore.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2294,7 +2310,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Blazor\\VideoAppCore\\VideoAppCore.Models\\VideoAppCore.Models.csproj": {
+              "projectPath": "D:\\Blazor\\VideoAppCore\\VideoAppCore.Models\\VideoAppCore.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

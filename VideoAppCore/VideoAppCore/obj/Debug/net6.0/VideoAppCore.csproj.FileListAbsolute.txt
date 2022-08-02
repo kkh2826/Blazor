@@ -69,3 +69,5 @@ D:\Blazor\VideoAppCore\VideoAppCore\obj\Debug\net6.0\refint\VideoAppCore.dll
 D:\Blazor\VideoAppCore\VideoAppCore\obj\Debug\net6.0\VideoAppCore.pdb
 D:\Blazor\VideoAppCore\VideoAppCore\obj\Debug\net6.0\VideoAppCore.genruntimeconfig.cache
 D:\Blazor\VideoAppCore\VideoAppCore\obj\Debug\net6.0\ref\VideoAppCore.dll
+D:\Blazor\VideoAppCore\VideoAppCore\bin\Debug\net6.0\VideoAppCore.Models.dll
+D:\Blazor\VideoAppCore\VideoAppCore\bin\Debug\net6.0\VideoAppCore.Models.pdb
