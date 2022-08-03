@@ -24,7 +24,7 @@ namespace VideoAppCore.Models
             // App.config 또는 Web.config 연결 문자열 사용
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+                string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }

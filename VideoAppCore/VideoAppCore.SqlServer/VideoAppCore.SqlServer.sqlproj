@@ -60,4 +60,7 @@
   <ItemGroup>
     <Build Include="Videos.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="VideoAppCore.SqlServer.publish.xml" />
+  </ItemGroup>
 </Project>

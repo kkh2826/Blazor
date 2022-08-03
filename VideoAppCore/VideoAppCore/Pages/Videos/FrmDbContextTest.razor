@@ -1,0 +1,23 @@
+﻿@page "/Videos/FrmDbContextTest"
+
+@using VideoAppCore.Models
+
+@inject VideoDbContext VideoDbContext
+
+<h3>FrmDbContextTest</h3>
+
+<ul>
+    @foreach (var video in videos)
+    {
+        <li>@video.Id - @video.Title</li>
+    }
+</ul>
+
+@code {
+    List<Video> videos;
+
+    protected override void OnInitialized()
+    {
+        videos = VideoDbContext.Videos.ToList();
+    }
+}
