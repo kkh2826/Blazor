@@ -1,4 +1,4 @@
-﻿namespace VideoAppCore.Models
+﻿namespace VideoAppCore.Models._
 {
     public class VideoRepositoryDapper : IVideoRepository
     {

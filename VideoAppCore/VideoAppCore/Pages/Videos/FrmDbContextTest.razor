@@ -2,22 +2,32 @@
 
 @using VideoAppCore.Models
 
-@inject VideoDbContext VideoDbContext
+@inject IVideoRepositoryAsync repository
 
 <h3>FrmDbContextTest</h3>
 
-<ul>
-    @foreach (var video in videos)
-    {
-        <li>@video.Id - @video.Title</li>
-    }
-</ul>
+@if (videos == null)
+{
+    <text>...</text>
+}
+else
+{
+    <ul>
+        @foreach (var video in videos)
+        {
+            <li>@video.Id - @video.Title</li>
+        }
+    </ul>
+    
+}
+
 
 @code {
     List<Video> videos;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        videos = VideoDbContext.Videos.ToList();
+        videos = await repository.GetVideosAsync();
     }
+
 }

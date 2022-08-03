@@ -1,30 +1,70 @@
-﻿namespace VideoAppCore.Models
+﻿using Dapper;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+
+namespace VideoAppCore.Models
 {
     public class VideoRepositoryDapperAsync : IVideoRepositoryAsync
     {
-        public Task<Video> AddVideoAsync(Video model)
+        private readonly SqlConnection db;
+        public VideoRepositoryDapperAsync(string connectionString)
         {
-            throw new NotImplementedException();
+            db = new SqlConnection(connectionString);
         }
 
-        public Task<Video> GetVideoByIdAsync(int id)
+        public async Task<Video> AddVideoAsync(Video model)
         {
-            throw new NotImplementedException();
+            const string query =
+                    "INSERT INTO VIDEOS(TITLE, URL, NAME, COMPANY, CREATEDBY) VALUES (@Title, @Url, @Name, @Company, @CreatedBy);" +
+                    "SELECT CAST(SCOPE_IDENTITY() AS INT);";
+
+            int id = await db.ExecuteScalarAsync<int>(query, model);
+
+            model.Id = id;
+
+            return model;
         }
 
-        public Task<List<Video>> GetVideosAsync()
+        public async Task<Video> GetVideoByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            const string query = "SELECT * FROM VIDEOS WHERE ID = @Id";
+
+            var video = await db.QueryFirstOrDefaultAsync<Video>(query, new { id }, commandType: CommandType.Text);
+
+            return video;
         }
 
-        public Task RemoveVideoAsync(int id)
+        public async Task<List<Video>> GetVideosAsync()
         {
-            throw new NotImplementedException();
+            const string query = "SELECT * FROM VIDEOS";
+
+            var videos = await db.QueryAsync<Video>(query);
+
+            return videos.ToList();
         }
 
-        public Task<Video> UpdateVideoAsync(Video model)
+        public async Task RemoveVideoAsync(int id)
         {
-            throw new NotImplementedException();
+            const string query = "DELETE VIDEOS WHERE ID = @Id";
+
+            await db.ExecuteAsync(query, new { id }, commandType: CommandType.Text);
+        }
+
+        public async Task<Video> UpdateVideoAsync(Video model)
+        {
+            const string query =
+                    "UPDATE VIDEOS" +
+                    "   SET TITLE   = @Title" +
+                    "     , URL     = @Url" +
+                    "     , NAME    = @Name" +
+                    "     , COMPANY = @Company" +
+                    "     , MODIFIEDBY = @ModifiedBy" +
+                    " WHERE ID         = @Id";
+
+            await db.ExecuteAsync(query, model);
+
+            return model;
         }
     }
 }

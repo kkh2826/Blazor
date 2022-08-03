@@ -1,9 +1,6 @@
-﻿namespace VideoAppCore.Models
+﻿namespace VideoAppCore.Models._
 {
-    /// <summary>
-    /// NuGet 에서 System.Configuration.ConfigurationManager 설치
-    /// </summary>
-    public class VideoRepositoryAdoNet : IVideoRepository
+    public class VideoRepositoryEfCore : IVideoRepository
     {
         public Video AddVideo(Video model)
         {

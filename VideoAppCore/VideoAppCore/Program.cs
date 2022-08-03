@@ -21,9 +21,11 @@ builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuth
 builder.Services.AddSingleton<WeatherForecastService>();
 
 // 새로운 DbContext 클래스 등록
-builder.Services.AddEntityFrameworkSqlServer().AddDbContext<VideoDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<VideoDbContext>(options => options.UseSqlServer(connectionString));
 //builder.Services.AddDbContext<VideoDbContext>(options =>
 //    options.UseSqlServer(connectionString));
+
+builder.Services.AddTransient<IVideoRepositoryAsync, VideoRepositoryEfCoreAsync>();
 
 var app = builder.Build();
 

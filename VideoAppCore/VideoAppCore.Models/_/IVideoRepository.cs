@@ -1,4 +1,4 @@
-﻿namespace VideoAppCore.Models
+﻿namespace VideoAppCore.Models._
 {
     // 동기방식
     public interface IVideoRepository
