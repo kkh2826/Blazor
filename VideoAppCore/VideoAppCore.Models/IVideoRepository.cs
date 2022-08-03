@@ -1,5 +1,6 @@
 ﻿namespace VideoAppCore.Models
 {
+    // 동기방식
     public interface IVideoRepository
     {
         Video AddVideo(Video model);        // 입력
