@@ -1,7 +1,45 @@
 ﻿@page "/Manufacturers"
 
-<h3>ManufacturerIndex</h3>
+@inject IManufacturerRepository repository
+
+<h3>Manufacturer List</h3>
+
+<p>고객사 리스트를 출력</p>
+
+@if (manufacturers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Manufacturer Code</th>
+                <th>Comment</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var manufacturer in manufacturers)
+            {
+            <tr>
+                <td>@manufacturer.Id</td>
+                <td>@manufacturer.Name</td>
+                <td>@manufacturer.ManufacturerCode</td>
+                <td>@manufacturer.Comment</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
 
 @code {
+    List<Manufacturer> manufacturers;
 
+    protected override async Task OnInitializedAsync()
+    {
+        manufacturers = await repository.GetManufacturers();
+    }
 }
