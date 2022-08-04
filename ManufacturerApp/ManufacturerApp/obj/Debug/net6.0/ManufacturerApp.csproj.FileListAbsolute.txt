@@ -69,3 +69,4 @@ D:\Blazor\ManufacturerApp\ManufacturerApp\obj\Debug\net6.0\refint\ManufacturerAp
 D:\Blazor\ManufacturerApp\ManufacturerApp\obj\Debug\net6.0\ManufacturerApp.pdb
 D:\Blazor\ManufacturerApp\ManufacturerApp\obj\Debug\net6.0\ManufacturerApp.genruntimeconfig.cache
 D:\Blazor\ManufacturerApp\ManufacturerApp\obj\Debug\net6.0\ref\ManufacturerApp.dll
+D:\Blazor\ManufacturerApp\ManufacturerApp\bin\Debug\net6.0\libman.json

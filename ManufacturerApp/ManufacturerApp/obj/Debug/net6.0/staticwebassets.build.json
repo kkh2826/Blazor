@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m6QDzT8oSA/i37AdIFYSJ7LOuqD0S/SKuo/wRZWGEpo=",
+  "Hash": "ng2N87MPOPosS5QI6kxg+hD3nimK4uAo36v9xe0Y5D0=",
   "Source": "ManufacturerApp",
   "BasePath": "_content/ManufacturerApp",
   "Mode": "Default",
@@ -1290,6 +1290,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Blazor\\ManufacturerApp\\ManufacturerApp\\wwwroot\\lib\\dist\\js\\bootstrap.js",
+      "SourceId": "ManufacturerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blazor\\ManufacturerApp\\ManufacturerApp\\wwwroot\\",
+      "BasePath": "_content/ManufacturerApp",
+      "RelativePath": "lib/dist/js/bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "D:\\Blazor\\ManufacturerApp\\ManufacturerApp\\wwwroot\\lib\\jquery.js",
+      "SourceId": "ManufacturerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Blazor\\ManufacturerApp\\ManufacturerApp\\wwwroot\\",
+      "BasePath": "_content/ManufacturerApp",
+      "RelativePath": "lib/jquery.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery.js"
     }
   ]
 }

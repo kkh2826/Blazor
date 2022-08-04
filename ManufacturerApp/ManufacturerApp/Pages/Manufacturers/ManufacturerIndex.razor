@@ -19,6 +19,8 @@ else
                 <th>Name</th>
                 <th>Manufacturer Code</th>
                 <th>Comment</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
         </thead>
         <tbody>
@@ -29,6 +31,12 @@ else
                 <td>@manufacturer.Name</td>
                 <td>@manufacturer.ManufacturerCode</td>
                 <td>@manufacturer.Comment</td>
+                <td>
+                    <input type="button" value="Edit" class="btn btn-primary" />
+                </td>
+                <td>
+                    <input type="button" value="Delete" class="btn btn-danger" />
+                </td>
             </tr>
             }
         </tbody>
