@@ -28,7 +28,18 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
-    <script src="/lib/jquery.js"></script>
-    <script src="/lib/dist/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+        // 넘어온 ID를 갖는 모달 창 닫기
+        function closeModal(modalId) {
+            //console.log("삭제");
+            $("#" + modalId).modal('hide');
+        }
+        // 넘어온 ID를 갖는 모달 창 열기
+        function showModal(modalId) {
+            $("#" + modalId).modal('show');
+        }
+    </script>
 </body>
 </html>
