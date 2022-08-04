@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using ManufacturerApp.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ManufacturerApp.Data
@@ -9,5 +10,7 @@ namespace ManufacturerApp.Data
             : base(options)
         {
         }
+
+        public DbSet<Manufacturer> Manufacturers { get; set; }
     }
 }
