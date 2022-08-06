@@ -33,7 +33,10 @@ else
                 <td>@manufacturer.ManufacturerCode</td>
                 <td>@manufacturer.Comment</td>
                 <td>
-                    <input type="button" value="Edit" class="btn btn-primary" />
+                    <input type="button" value="Edit" class="btn btn-primary" 
+                        data-toggle="modal" data-target="#manufacturerEditorDialog" 
+                        @onclick="(() => EditBy(manufacturer))"
+                    />
                 </td>
                 <td>
                     <input type="button" value="Delete" class="btn btn-danger" 
@@ -47,19 +50,36 @@ else
     </table>
 }
 
+<div>
+    <input type="button" value="등록" data-toggle="modal" 
+        data-target="#manufacturerEditorDialog" class="btn btn-primary" 
+        @onclick="(() => btnCreate_Click())"
+    />
+</div>
 
-    <ManufacturerDeleteDialog OnClick="btnDelete_Click"></ManufacturerDeleteDialog>    
+<ManufacturerDeleteDialog OnClick="btnDelete_Click"></ManufacturerDeleteDialog>    
+
+<ManufacturerEditorForm EditorModel="@manufacturer" SaveOrUpdated="@SaveOrUpdated">
+    <EditorFormTitle>@editorFormTitle</EditorFormTitle>
+</ManufacturerEditorForm>
+
 
 
 @code {
+    private string editorFormTitle = "";
+    private List<Manufacturer> manufacturers;
 
-    List<Manufacturer> manufacturers;
-
-    Manufacturer manufacturer = new Manufacturer();
+    private Manufacturer manufacturer = new Manufacturer();
 
     protected override async Task OnInitializedAsync()
     {
         manufacturers = await repository.GetManufacturers();
+    }
+
+    protected void btnCreate_Click()
+    {
+        editorFormTitle = "등록하기";
+        manufacturer = new Manufacturer();
     }
 
     protected async Task btnDelete_Click()
@@ -73,6 +93,19 @@ else
     private void DeleteBy(Manufacturer manu)
     {
         manufacturer = manu;
+    }
+
+    private void EditBy(Manufacturer manu)
+    {
+        editorFormTitle = "수정하기";
+        manufacturer = manu;
+    }
+
+    // 등록 또는 수정 후 현재 페이지 다시 Load
+    private async void SaveOrUpdated()
+    {
+        manufacturers = await repository.GetManufacturers(); // 다시 읽어오기
+        StateHasChanged();
     }
 }
 
